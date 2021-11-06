@@ -1,3 +1,144 @@
 nav{
     margin-left: 500px;
 }
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.navbar-light .navbar-nav .nav-link{
+    border: 2px solid transparent;
+}
+.first-screen__left h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #1652AC;
+    margin-top: 100px;
+}
+.first-screen__left p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+}
+.first-screen__left p::before,
+.first-screen__left p::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+.first-screen__left p::before{
+    top: -55px;
+}
+.first-screen__left p::after{
+    bottom: -55px;
+}
+.first-screen__right img{
+    width: 100%;
+
+}
+.c__black{
+    font-weight: bold;
+    font-size: 17px;
+    color: #020303;
+}
+.second__screen__right p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+
+}
+.second__screen__right h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    margin-bottom: 30px;
+}
+.second__screen{
+    margin-top: 50px;
+}
+.third__screen__right{
+    background-color: #163DA1;
+}
+.third__screen__right h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 29%;
+}
+.third__screen__right p{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FBFDFF;
+    width: 700px;
+    margin-left: 29%;
+}
+.qwerty{
+    margin-bottom: 40px;
+}
+.last-screen__left h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.last-screen__left p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
