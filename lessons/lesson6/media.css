@@ -48,5 +48,36 @@
         text-align: center;
         width: 340px;
     }
+.footter{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 100px;
 
+
+}
+.box{
+    height: 350px;
+    width: 310px;
+}
+    .footter__logo{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footter__gold{
+        color: #BC9060;
+    }
+    .footter__text1{
+        margin-bottom: 0;
+    }
+    .box div{
+        margin-left:0;
+        margin-right: 0;
+
+
+    }
+    .qwerty{
+        margin-bottom: 30px;
+    }
 }
