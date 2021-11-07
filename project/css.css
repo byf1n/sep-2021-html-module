@@ -1,0 +1,394 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #0F2438;
+}
+
+.header__left, .header__right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.header__left, .header__right div {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header__b__top {
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.header__b__buttom {
+    height: 100px;
+    width: 100%;
+
+}
+
+.header__b {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+}
+
+.hader__b__logo {
+    column-gap: 15px;
+
+}
+
+.hader__b__logo__bolt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.hader__b__logo__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+}
+
+.header__b__time {
+
+    column-gap: 15px;
+}
+
+.header__b__time img {
+    height: 40px;
+    margin-top: 30px;
+}
+
+.header__b__time div {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
+    width: 220px;
+}
+
+.header__b__location div {
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin-top: 10px;
+}
+
+.header__b__location img {
+    height: 35px;
+}
+
+.header__b__location {
+
+    margin-top: 30px;
+    column-gap: 10px;
+}
+
+.header__b__connection {
+    height: 33px;
+    width: 200px;
+    background-color: #E1EFD0;
+    border-radius: 2px;
+    margin-top: 32px;
+}
+
+.header__b__connection div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+    margin-right: 15px;
+    margin-top: -15px;
+}
+
+.header__b__connection img {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header__b__number {
+
+}
+
+.header__b__number__norm {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+    margin-top: 28px;
+
+}
+
+.header__b__number__grey {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+    margin-left: 23px;
+
+}
+
+.palka {
+    height: 3px;
+    width: 20px;
+    background-color: white;
+}
+
+.header__b__buttom__button {
+    height: 55px;
+    width: 165px;
+    background-color: #005BB9;
+    border-radius: 6px;
+    column-gap: 12px;
+    margin-left: 270px;
+    margin-top: 17px;
+}
+
+.header__b__buttom__palka {
+    flex-direction: column;
+    row-gap: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header__b__buttom__text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header__b__search {
+    width: 650px;
+    height: 55px;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.header__b__search__left {
+    width: 80%;
+    background: #F4F5FA;
+    border-radius: 6px 0 0 6px;
+}
+
+.header__b__search__right {
+    width: 20%;
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+}
+
+.header__b__search__right__text1 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C2C5DA;
+    margin-top: 18px;
+    margin-left: 10px;
+
+}
+
+.header__b__search__right__text2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+.header__b__login {
+    width: 450px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+.header__b__login__box1 {
+    width: 33%;
+    border-right: 1px solid #E1E5F8;
+    border-left: 1px solid #E1E5F8;
+}
+
+.header__b__login div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 0px;
+    color: #0F2438;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.header__b__login img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Main {
+    height: 3000px;
+    width: 100%;
+    background-color: white;
+}
+
+.Main_card {
+    width: 1350px;
+    height: 400px;
+    background-color: #00ff33;
+    margin: 0 auto;
+}
+
+.Main_card__left {
+    width: 1010px;
+    height: 100%;
+    background: url("img/back.png") no-repeat #0ff3f3 center top;
+    border-radius: 30px;
+    column-gap: 50px;
+
+}
+
+.Main_card__right__top, .Main_card__right__bottom {
+    height: 195px;
+    width: 340px;
+    background-color: #F4F5FA;
+    border-radius: 20px;
+
+}
+
+.Main_card__left__img {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+
+.Main_card__left__img__back {
+    position: absolute;
+}
+
+.AMCLUTCH {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.moneym {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+
+}
+
+.Main_card__left__text {
+    margin-top: 110px;
+    margin-left: 110px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.Main_card__left__sale {
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.Main_card__left__text button {
+    width: 160px;
+    height: 50px;
+    background: #005BB9;
+    border-radius: 6px;
+    color: white;
+    border: none;
+
+}
+
+.mon-4300 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+
+
+}
+
+.card-body__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+
+}
+.card-body__main{
+    column-gap: 40px;
+}
+.code{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.card-body__main__right img{
+
+}
+.card{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
