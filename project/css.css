@@ -36,9 +36,9 @@
     height: 200px;
     width: 100%;
     background-color: white;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 1fr 1fr;
     flex-direction: column;
+    box-shadow: 19px 4px 20px #cac7c7;
+    margin-bottom: 30px;
 }
 
 .hader__b__logo {
@@ -259,16 +259,16 @@
 }
 
 .Main_card {
-    width: 1350px;
+    width: 1370px;
     height: 400px;
-    background-color: #00ff33;
     margin: 0 auto;
+    column-gap: 10px;
 }
 
 .Main_card__left {
     width: 1010px;
     height: 100%;
-    background: url("img/back.png") no-repeat #0ff3f3 center top;
+    background: url("img/back.png") no-repeat #0ff3f3  center/cover  ;
     border-radius: 30px;
     column-gap: 50px;
 
@@ -350,7 +350,7 @@
 
 }
 .card-body__main{
-    column-gap: 40px;
+    column-gap: 20px;
 }
 .code{
     font-style: normal;
@@ -358,13 +358,65 @@
     font-size: 12px;
     line-height: 14px;
     color: #525252;
+    margin-top: -4px;
+
 }
 .card-body__main__right img{
 
 }
 .card{
+border-radius: 10px;
+    border: none;
+}
+a {
+    margin-left: 140px;
+}
+a img{
+    margin: 7px;
+}
+.Main_card__right{
+
 
 }
+.cars{
+    margin-bottom: 300px;
+}
+.Main_card__right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+h5{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.img1{
+    margin-left: 20px;
+}
+.Main_card__right__bottom__right{
+    column-gap: 20px;
+}
+.card-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0A1A2C;
+
+}
+.but1{
+    margin-left: 270px;
+    position: absolute;
+    margin-top: 16px;
+
+
+}
+.mon-4300{
+    margin-left: 120px;
+    margin-top: 15px;
+    position: absolute;
+}
+
 
 
 
